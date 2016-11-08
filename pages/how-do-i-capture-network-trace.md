@@ -4,6 +4,7 @@ The great news is that since Windows Server 2008R2, we've had the ability to cap
 
 ```netsh``` [does many things](https://technet.microsoft.com/en-us/library/bb490939.aspx).  We are interested in its ability to capture network traffic.
 
+## To Start a Network Trace
 From an **administrator** command prompt:
 
 ```
@@ -21,6 +22,7 @@ Report:             Off
 
 That's it.  Now you've got a 250MB circular buffer of an opportunity to go reproduce the behavior.  
 
+## To Stop a Network Trace
 When your ready to stop your trace:
 
 ```
@@ -37,6 +39,10 @@ Tracing session was successfully stopped.
 
 This may take a minute or so.  That's OK. 
 
+
+## To Analyze a Network Trace
+
+Download, and install, [Microsoft Message Analyer](https://www.microsoft.com/en-us/download/details.aspx?id=44226).
 
 
 
