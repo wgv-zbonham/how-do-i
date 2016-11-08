@@ -1,4 +1,4 @@
-### How do I Capture a Network Trace?
+# How do I Capture a Network Trace?
 
 The great news is that since Windows Server 2008R2, we've had the ability to capture network traces without any additional tools or utilities.  Sure.  You could install Wireshark if thats your thing.  However, if your on a customer site, or in a production environment, and you don't want to slow down/stop to ask for permission, you can reach for ```netsh```.
 
